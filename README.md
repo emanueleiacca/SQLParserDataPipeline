@@ -1,4 +1,4 @@
-# SQL Query Tools Library
+# SQLParserDataPipeline Library
 
 ## Overview
 The SQL Query Tools Library is a powerful Python package designed for parsing and interpreting complex SQL queries. It was developed with a focus on BigQuery but is adaptable to other SQL dialects due to its flexible parsing strategy that doesn't consider the function itself but the most inner parentheses..
