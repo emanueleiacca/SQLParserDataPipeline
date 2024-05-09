@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='SQL_Parser', 
+    name='SQLParserDataPipeline', 
     version='0.1',      
     author='Emanuele Iaccarino',  
     author_email='emanueleiaccarino.ei@gmail.com',  # Replace with your email
