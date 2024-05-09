@@ -1,0 +1,6 @@
+README.md
+setup.py
+SQL_Parser.egg-info/PKG-INFO
+SQL_Parser.egg-info/SOURCES.txt
+SQL_Parser.egg-info/dependency_links.txt
+SQL_Parser.egg-info/top_level.txt
