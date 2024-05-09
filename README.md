@@ -33,12 +33,17 @@ This function is particularly useful for those developing data pipelines where u
 To get started with SQL Query Tools, install the package using pip:
 
 ```bash
-pip SQLParserDataPipeline
+pip SQLParserDataPipeline==0.5
 ```
 
 ## Usage
 
 An example on how to call the functions and use the library is provided on Usage.py , feel free to use it with your queries
+
+## Avaible functions
+- from SQLParserDataPipeline.Select import parse_select_statement
+- from SQLParserDataPipeline.From import extract_tables_and_aliases
+- from SQLParserDataPipeline.Unnest import extract_unnest_transformations
 
 ## Queries Examples
 
