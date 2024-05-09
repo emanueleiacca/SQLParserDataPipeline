@@ -1,7 +1,7 @@
 # SQLParserDataPipeline Library
 
 ## Overview
-The SQL Query Tools Library is a powerful Python package designed for parsing and interpreting complex SQL queries. It was developed with a focus on BigQuery but is adaptable to other SQL dialects due to its flexible parsing strategy that doesn't consider the function itself but the most inner parentheses..
+The SQLParserDataPipeline is a powerful Python package designed for parsing and interpreting complex SQL queries. It was developed with a focus on BigQuery but is adaptable to other SQL dialects due to its flexible parsing strategy that doesn't consider the function itself but the most inner parentheses..
 This Parser is specifically tuned to handle intricate query structures that go beyond the capabilities of standard SQL parsers.
 
 ### Features
@@ -49,3 +49,6 @@ An example on how to call the functions and use the library is provided on Usage
 
 On Example_Query.SQL a few examples were provided to demostrate how our library perform on gradually more complex queries. In each example we experiment a potential issue that other parser can't deal with.
 
+## Info Regarding the library
+
+All the info regarding the library can be found on [PYPI site](https://pypi.org/project/SQLParserDataPipeline/)
