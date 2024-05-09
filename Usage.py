@@ -1,6 +1,6 @@
-from From import *
-from Select import *
-from Unnest import *
+from SQLParserDataPipeline.Select import parse_select_statement
+from SQLParserDataPipeline.From import extract_tables_and_aliases
+from SQLParserDataPipeline.Unnest import extract_unnest_transformations
 query = """
 SELECT t1.id,
        unnested_items.item_name,
@@ -11,6 +11,7 @@ LEFT JOIN unnest(array[(1, 'apple'), (2, 'banana'), (3, 'apple'), (4, 'banana')]
 
 # Parse the SELECT clause
 parsed_query = parse_select_statement(query)
+(query)
 print(parsed_query)
 
 # Analyze the FROM clause

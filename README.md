@@ -33,7 +33,7 @@ This function is particularly useful for those developing data pipelines where u
 To get started with SQL Query Tools, install the package using pip:
 
 ```bash
-pip install sql-query-tools
+pip SQLParserDataPipeline
 ```
 
 ## Usage

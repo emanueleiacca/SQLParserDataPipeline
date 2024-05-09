@@ -77,23 +77,3 @@ def parse_select_statement(query):
     return updated_columns
 
 
-"""
-query = 
-'''
-SELECT 
-    user_id,
-    CONCAT(first_name, ' ', last_name) AS full_name,
-    email,
-    CONCAT('Phone: ', SUBSTR(phone_number, 1, 3), ' - ', SUBSTR(phone_number, 4, 3), '-', SUBSTR(phone_number, 7)) AS formatted_phone
-FROM users;
-'''
-parsed_columns = parse_select_statement(query)
-for column in parsed_columns:
-    print(column)
-"""
-
-"""Select function deal with a wide range of select statement, from easy query like every other parser avaible online to more complex query with nested selected statement, function, use of placeholders and other difficulties we can find in our select statement.
-It outperform other SQL Parser in python in parsing column name, this was the goal of a project I was doing and I didn't find a single parser able to deal with query a little bit more complex from the most basic one.
-It was developed for BigQuery but it should be able to work on other dialect as well since it doesn't focus on the sintex bit in the nested structure of SQL queries.
-I'm gonna point out a few queries that our library is able to parse correctly, difficulty goes from medium to really hard, you can try of course other queries:
-"""

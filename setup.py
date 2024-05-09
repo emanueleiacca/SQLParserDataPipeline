@@ -1,11 +1,12 @@
 from setuptools import setup, find_packages
+print(find_packages())
 
 setup(
     name='SQLParserDataPipeline', 
-    version='0.2',      
+    version='0.5',      
     author='Emanuele Iaccarino',  
-    author_email='emanueleiaccarino.ei@gmail.com',  # Replace with your email
-    description="The SQL Query Tools Library is a powerful Python package designed for parsing and interpreting complex SQL queries. It was developed with a focus on BigQuery but is adaptable to other SQL dialects due to its flexible parsing strategy that doesn't consider the function itself but the most inner parentheses.",
+    author_email='emanueleiaccarino.ei@gmail.com',  
+    description="The SQLParserDataPipeline Library is a powerful Python package designed for parsing and interpreting complex SQL queries. It was developed with a focus on BigQuery but is adaptable to other SQL dialects due to its flexible parsing strategy that doesn't consider the function itself but the most inner parentheses.",
     long_description=open('README.md').read(),  
     long_description_content_type='text/markdown',
     packages=find_packages(), 

@@ -21,19 +21,3 @@ def extract_tables_and_aliases(query):
     results = [res for res in results if res['Alias'] not in subquery_aliases]
     
     return results
-
-# Example usage:
-"""
-query = 
-
-'''
-SELECT e.employee_name, d.department_name
-FROM employees AS e
-LEFT JOIN departments AS d ON e.department_id = d.department_id AND YEAR(e.hire_date) = 2020
-ORDER BY d.department_name;
-'''
-
-print(extract_tables_and_aliases(query)) 
-"""
-
-#The from function is easier and can be upgraded to handle more difficult scenario. It's able to deal with medium level queries, it's able to find the table name and associated alias in query on LeetCode level. 
